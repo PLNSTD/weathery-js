@@ -1,0 +1,25 @@
+{
+  "name": "repositorytemplate",
+  "version": "1.0.0",
+  "description": "Repository Template for future projects to save time getting set up, letting me dive into working on the project itself sooner",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "author": "Pi",
+  "license": "MIT",
+  "devDependencies": {
+    "css-loader": "^6.10.0",
+    "eslint": "^8.56.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "style-loader": "^3.3.4",
+    "webpack": "^5.90.1",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "package_name": "^1.0.2"
+  }
+}

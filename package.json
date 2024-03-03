@@ -1,7 +1,7 @@
 {
-  "name": "repositorytemplate",
+  "name": "weathery",
   "version": "1.0.0",
-  "description": "Repository Template for future projects to save time getting set up, letting me dive into working on the project itself sooner",
+  "description": "Weather API app in Vanilla JS for practice",
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

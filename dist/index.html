@@ -3,9 +3,35 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title></title>
+        <title>Weather-y by Pi</title>
     </head>
     <body>
+        <div id="city-card">
+            <div id="weather-card">
+                <img src="/weathery-js/src/asset/weather-forecast.png" alt="image of weather" id="weather-icon">
+                <p id="weather-desc">No city</p>
+            </div>
+            <div id="time-card">
+                <div id="user-timezone">
+                    <!-- <p id="city-paragraph">TempRegion/TempCity</p> -->
+                    <div id="cities-list-container">
+                        <select name="city" id="cities">
+                            <option value ="none" selected="selected">Choose a city</option>
+                            <option value="New York">New York</option>
+                            <option value="London">London</option>
+                            <option value="Rome">Rome</option>
+                            <option value="Padua">Padua</option>
+                        </select>
+                    </div>
+                </div>
+                <div id="user-time">
+                    <p id="user-time-paragraph">HH:MM</p>
+                </div>
+                <div id="user-date">
+                    <p id="user-date-paragraph">Date</p>
+                </div>
+            </div>
+        </div>
         <script src="bundle.js"></script>
     </body>
 </html>

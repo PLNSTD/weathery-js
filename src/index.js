@@ -52,13 +52,13 @@ const cardReset = () => {
 
   cityTimeElement.innerHTML = 'HH:MM';
   cityDateElement.innerHTML = 'Date';
-  weatherIconElement.src = '/asset/weather-forecast.png';
+  weatherIconElement.src = "../dist/asset/weather-forecast.png";
   weatherDescElement.innerHTML = 'No city';
 }
 
 const dropdownList = document.getElementById('cities');
 
 dropdownList.onchange = () => {
-  if( dropdownList.value !== 'none') cardCreation(dropdownList.value);
+  if(dropdownList.value.toLowerCase() !== 'none') cardCreation(dropdownList.value);
   else cardReset();
 }

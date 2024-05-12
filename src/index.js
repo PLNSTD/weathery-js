@@ -1,7 +1,7 @@
 import './style.css';
 // import icon from './icon.png'; To load some image for the code
 
-const baseURL = 'http://api.weatherapi.com/v1';
+const baseURL = 'https://api.weatherapi.com/v1';
 const key = 'de5b8821295a445cb73200758240203';
 
 const getWeather = async (city) => {

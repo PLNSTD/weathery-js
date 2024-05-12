@@ -52,7 +52,7 @@ const cardReset = () => {
 
   cityTimeElement.innerHTML = 'HH:MM';
   cityDateElement.innerHTML = 'Date';
-  weatherIconElement.src = 'asset/weather-forecast.png';
+  weatherIconElement.src = '/asset/weather-forecast.png';
   weatherDescElement.innerHTML = 'No city';
 }
 

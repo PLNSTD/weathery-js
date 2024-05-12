@@ -6,7 +6,3 @@ Implemented usage of API call to retrieve the chosen city informations.
 ## Try it!
 
 https://weatherbypi.netlify.app
-
-## License
-
-This project is licensed under the MIT License.
